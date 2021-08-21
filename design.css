@@ -1,0 +1,663 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+/*  <!--- section 1 ---> */
+.section {
+    margin-top: 0px;
+    padding-left: 200px;
+    font-size: 30px;
+    background-color: blue;
+    color: azure;
+}
+
+#header {
+
+    height: 500px;
+    width: 1000px;
+
+    margin: auto;
+    margin-top: 50px;
+    background-color: aliceblue;
+
+}
+
+.text_area {
+
+    position: relative;
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: aliceblue;
+
+
+}
+
+.text_area h4 {
+    color: red;
+    font-size: 20px;
+
+}
+
+.text_area h1 {
+    color: black;
+    font-size: 33px;
+    padding-top: 10px;
+    font-family: verdana;
+    font-style:
+}
+
+.text_area p {
+    color: black;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.btn_contact {
+    margin-top: 30px;
+    background-color: red;
+    font-size: 10px;
+    width: 100px;
+    border: none;
+    height: 30px;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.header_girl {
+    position: relative;
+    height: 400px;
+    width: 450px;
+    float: right;
+    margin-top: 50px;
+}
+
+
+/*   section 2( registration from )*/
+
+#contact_form {
+
+    width: 450px;
+    height: 380px;
+    border: 2px solid black;
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    display: none;
+    margin-left: 300px;
+
+
+
+}
+
+#contact_form label {
+    position: relative;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+
+.cancel {
+    position: relative;
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#contact_form h3 {
+
+    padding: 30px 30px;
+    font-size: 30px;
+
+}
+
+.text_1 input {
+
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    width: 350px;
+    margin-left: 40px;
+    padding: 5px;
+
+    outline: none;
+    position: absolute;
+
+}
+
+.text_1 label {
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.text_1 span:: before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    outline: none;
+
+
+}
+
+.text_1 input:focus ~ label,
+.text_1 input:valid ~ label {
+    top: -15px;
+    color: red;
+}
+
+.text_2 {
+
+    margin: 45px;
+
+    position: absolute;
+
+}
+
+.text_2 input {
+
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    width: 153px;
+
+    outline: none;
+    margin-left: 0px;
+    position: absolute;
+
+    padding: 5px;
+
+
+
+}
+
+.text_2 label {
+
+    position: relative;
+    margin: 10px 0px;
+
+
+
+
+
+}
+
+.text_2 span:: before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    outline: none;
+
+
+}
+
+.text_2 input:focus ~ label,
+.text_2 input:valid ~ label {
+    top: -10px;
+    color: red;
+}
+
+.text_3 {
+    margin: 45px;
+
+    position: relative;
+}
+
+.text_3 input {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 5px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.text_3 label {
+    margin-left: 200px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: text;
+}
+
+.text_3 span:: before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    outline: none;
+
+
+}
+
+.text_3 input:focus ~ label,
+.text_3 input:valid ~ label {
+    top: -15px;
+    color: red;
+}
+
+.btn_contact2 {
+
+    width: 400px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 27px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.btn_radio {
+
+    margin-top: -30px;
+    margin-left: 50px;
+    position: absolute;
+
+}
+
+.p_graph {
+    margin-top: -30px;
+    margin-left: 80px;
+    position: absolute;
+
+}
+
+
+/*   section 3 image slider on hover */
+
+#collage {
+
+    width: 100%;
+    height: 900px;
+    background-color: bisque;
+    border: 2px;
+    margin-top: 30px;
+
+}
+
+.text_area2 {
+
+    height: 200px;
+    width: 80%;
+
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+
+.text_area2 h3 {
+    color: red;
+    font-size: 20px;
+
+
+}
+
+.text_area2 h1 {
+    color: black;
+    font-size: 33px;
+    padding-top: 10px;
+    font-family: verdana;
+    position: absolute;
+    padding-top: 20px;
+    ;
+    float: left;
+
+
+}
+
+.text_area2 p {
+
+    position: relative;
+    margin-top: 30px;
+    margin-right: 0px;
+    float: right;
+
+
+}
+
+#img_container {
+
+    width: 90%;
+    height: 570px;
+
+    margin-left: 150px;
+    margin-top: 300px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.img_mover1 {
+
+
+    height: 520px;
+    display: inline-flex;
+    grid-gap: 30px;
+
+
+}
+
+.img_mover1 :hover {
+
+    transform: scale(1.1, 1.05);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.img_hover_text {
+
+    width: 320px;
+    height: 526px;
+    background-color: red;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+
+}
+
+.img_hover_text h3 {
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+}
+
+.img_hover_text p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.img_hover_textbtn {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    color: red;
+    border: none;
+}
+
+.icon {
+    margin-top: 100px;
+}
+
+#indicator {
+    width: 80px;
+    height: 10px;
+
+    margin-top: 30px;
+    left: 1%;
+    position: absolute;
+    display: inline-flex;
+
+}
+
+#indicator span {
+    width: 7px;
+    height: 7px;
+    bottom: 5px;
+    border-radius: 90px;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+
+
+
+
+
+}
+
+.indicator_img {
+
+    position: absolute;
+    display: none;
+    width: 25px;
+    bottom: -6px;
+    left: -9px;
+}
+
+
+
+/*    section 4 our project division */
+
+#our_project {
+    width: 1200px;
+    height: 770px;
+
+    margin: auto;
+
+}
+
+.title {
+    margin-top: 100px;
+    color: red;
+}
+
+#our_project h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#our_project h3 {
+    text-align: center;
+
+}
+
+#img_block {
+    width: 770px;
+    height: 560px;
+    margin-top: 30px;
+    position: absolute;
+
+    float: left;
+    overflow: hidden;
+
+}
+
+.slider {
+
+    width: 100%;
+    display: inline-flex;
+    transition: 0.5s;
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.text_block {
+    width: 370px;
+    height: 560px;
+    float: right;
+    position: relative;
+    margin-top: 30px;
+    display: block;
+
+    cursor: pointer;
+
+}
+
+.text1 {
+    width: 370px;
+    height: 186px;
+
+    background-color: darkgray;
+
+
+}
+
+.text1:hover {
+    height: 186px;
+    transform: scale(1.1, 1.1);
+    background-color: white;
+    font-size: 20px;
+    transition: 0.5s;
+
+
+}
+
+.text_bolck_h1 {
+    padding-top: 30px;
+    font-family: bold;
+    text-align: center;
+}
+
+.text_bolck_p {
+    margin: 15px 65px;
+    font-size: 16px;
+
+
+}
+
+.text2 {
+    width: 370px;
+    height: 186px;
+    background-color: red;
+}
+
+.text2:hover {
+    background-color: white;
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+#text3 {
+    width: 370px;
+    height: 186px;
+
+    background-color: darkgray;
+}
+
+#text3:hover {
+    background-color: white;
+    transition: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+
+
+/* ection 5 why choose  division*/
+
+#why_choose {
+
+    width: 100%;
+    height: 500px;
+
+    position: absolute;
+
+    text-align: center;
+
+
+}
+
+.title3 {
+    padding-top: 80px;
+    color: red;
+
+}
+
+#why_choose h1 {
+    padding-top: 30px;
+    font-family: verdana;
+}
+
+.choose_us {
+
+    width: 1100px;
+    height: 233px;
+    text-align: left;
+    display: inline-flex;
+    grid-gap: 15px;
+}
+
+.box2 {
+    height: 233px;
+    width: 264px;
+
+}
+
+.box2 span {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.box2 img {
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.box2 h3 {
+    margin-top: 10px;
+    font-size: 15px;
+    font: normal normal normal 16px/26px Poppins;
+}
+
+
+/* --- section 6( company details) */
+
+#expert_growth {
+
+    width: 100%;
+    height: 600px;
+
+    text-align: center;
+
+
+}
+
+.title3 {
+    padding-top: 80px;
+    color: red;
+
+}
+
+#expert_growth h1 {
+    padding-top: 30px;
+    font-family: verdana;
+}
+
+.expert_conatiner {
+
+    width: 1100px;
+    height: 233px;
+
+    margin: 100px 200px;
+    display: inline-flex;
+    grid-gap: 15px;
+}
+
+.box1 {
+    height: 233px;
+    width: 264px;
+    background-color: azure;
+}
+
+.box1 span {
+    font-size: 60px;
+}
+
+.box1 img {
+    margin-top: 40px;
+}
+
+.box1 h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.box1:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+
+    transition: 0.8s;
+    transform: scale(1.1, 1.1);
+
+}
